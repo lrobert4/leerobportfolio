@@ -3,19 +3,23 @@ body {
 }
 
 header {
-
+    display: flex;
+    justify-content: center;
 }
 
 .parent {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-rows: 960px;
+    grid-template-columns: 480px 480px;
 
 }
+
 
 .intro-text {
     background-color: #1f4954;
-  
+    
 }
+
 
 .intro-text p {
     color: #ffffff;
@@ -23,5 +27,5 @@ header {
 }
 
 .intro-pic {
-    
+
 }
