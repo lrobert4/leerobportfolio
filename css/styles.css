@@ -1,3 +1,27 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+header {
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.intro-text {
+    background-color: #1f4954;
+  
+}
+
+.intro-text p {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.intro-pic {
+    
+}
