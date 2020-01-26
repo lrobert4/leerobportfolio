@@ -2,15 +2,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
+h2.welcome {
+    text-align: left;
+}
+
+main {
     display: flex;
     justify-content: center;
 }
 
 .parent {
     display: grid;
-    grid-template-rows: 960px;
-    grid-template-columns: 480px 480px;
+    grid-template-rows: fit-content(100%);
+    grid-template-columns: 1fr 1fr;
 
 }
 
