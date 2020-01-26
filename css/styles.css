@@ -2,15 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* First Section in Main Element */
+
 h1.welcome {
     text-align: left;
     font-weight: bold;
     font-size: 5em;
-}
-
-section {
-    display: flex;
-    justify-content: center;
 }
 
 .parent {
@@ -32,6 +29,40 @@ section {
     font-weight: 300;
 }
 
-.intro-pic {
+/* END of First Section in Main Element */
 
+
+/* Second Section in Main Element */
+
+.portfolio-gallery ul {
+    
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+} 
+
+.row-one {
+  background-color: #ccc;
+  width: 400px;
+  height: 400px;
+  
 }
+
+.row-two {
+  background-color: #BFBFBF;
+  width: 400px;
+  height: 400px;
+  }
+
+
+  /* END of Second Section in Main Element */
+
+  footer {
+   background-color: #96690B;
+  }
+
+  footer p {
+   text-align: center;
+   font-weight: 300;
+   color: #fff;
+  }
