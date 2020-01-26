@@ -7,13 +7,19 @@ body {
 h1.welcome {
     text-align: left;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 6em;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    
 }
 
 .parent {
     display: grid;
     grid-template-rows: fit-content(100%);
     grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    
 
 }
 
@@ -27,6 +33,23 @@ h1.welcome {
 .intro-text p {
     color: #ffffff;
     font-weight: 300;
+    padding-left: 20px;
+}
+
+.intro-text span {
+    padding-left: 20px;
+    
+}
+
+.intro-text img {
+    margin-top: 40px;
+}
+
+p.email {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
 }
 
 /* END of First Section in Main Element */
