@@ -2,11 +2,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h2.welcome {
+h1.welcome {
     text-align: left;
+    font-weight: bold;
+    font-size: 5em;
 }
 
-main {
+section {
     display: flex;
     justify-content: center;
 }
