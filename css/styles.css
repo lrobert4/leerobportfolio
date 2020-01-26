@@ -19,7 +19,7 @@ nav li {
     flex-direction: row;
     justify-content: center;
     padding: 20px;
-    
+    color: #fff;
 }
 
 nav a {
